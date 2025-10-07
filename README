@@ -1,0 +1,63 @@
+Password Vault App
+
+A simple web app where users can generate strong passwords, save them securely, and manage their personal vault — all with client-side encryption so that passwords stay private.
+
+Features
+
+✅ Generate strong passwords (choose length, symbols, numbers, etc.)
+
+✅ Save passwords with title, username, URL, and notes
+
+✅ Edit or delete saved passwords easily
+
+✅ Copy password to clipboard (auto-clears after 15 seconds)
+
+✅ All passwords are encrypted on the client side
+ 
+✅ Clean dark mode UI
+
+Tech Stack
+
+Frontend: Next.js + TypeScript + Tailwind CSS
+
+Backend: Node.js + Express + MongoDB
+
+Crypto: AES encryption using crypto-js library (because it’s simple and secure for client-side encryption).
+
+How to Run Locally
+1️⃣ Clone the Repo
+cd password-vault
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Start the Backend
+
+Go to the server folder and run:
+
+npm start
+
+4️⃣ Start the Frontend
+
+Go to the client folder and run:
+
+npm run dev
+
+5️⃣ Open in Browser
+
+Visit  http://localhost:3000
+
+Encryption Note
+
+All passwords are encrypted in the browser using AES before saving.
+
+The server never sees or stores the actual password — only the encrypted text.
+
+Demo
+
+Live Demo Link
+
+Screen Recording (60–90 sec)
+
+Made by Umar Rafiq
+Just a student project for learning web dev & security
